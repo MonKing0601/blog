@@ -1,0 +1,15 @@
+.footer{
+    background-color: #fff;
+    color: #428bca;
+}
+
+.comWidth{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.comBody{
+    width: 1000px;
+    margin: 0 auto;
+}

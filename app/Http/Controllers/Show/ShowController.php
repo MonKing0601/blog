@@ -79,6 +79,7 @@ class ShowController extends CommonController
     public function newshow()
     {
         return view('NewShow');
+
     }
 
 

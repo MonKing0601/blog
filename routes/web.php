@@ -23,13 +23,9 @@ Route::get('detail/{id}','Show\ShowController@detail');
 Route::get('/about','Show\ShowController@about');
 Route::get('contact','Show\ShowController@contact');
 Route::any('getComment','Show\ShowController@getComment');
-<<<<<<< HEAD
 Route::any(' ','Show\ShowController@right_side_order');
 Route::post('/Search','Show\ShowController@searchArt');
 
-=======
-Route::any('ArticleOrderBy','Show\ShowController@right_side_order');
->>>>>>> c070b3caa5208f80ecf968946c1405e9bd906b66
 //写模板用的测试路由
 Route::any('newShow','Show\ShowController@newShow');
 

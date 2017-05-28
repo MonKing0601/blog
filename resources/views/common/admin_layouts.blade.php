@@ -16,11 +16,7 @@
 </div>
 {{--横向菜单部分--}}
 <div class="operation_user clearfix">
-<<<<<<< HEAD
     <div class="link fl"><a href="#" /></div>
-=======
-    <div class="link fl"><a href="#"></div>
->>>>>>> c070b3caa5208f80ecf968946c1405e9bd906b66
     <div class="link fr">
         <p></p>
         <a href="{{url('admin/info')}}" target="mainFrame" class="icon icon_i">首页</a><span></span><a href="#" class="icon icon_j">前进</a><span></span><a

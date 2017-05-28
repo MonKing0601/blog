@@ -29,10 +29,6 @@
                     <p>手机号码： {{ '13395057500'}}</p>
 
                     <div class="footer-widget-icon">
-<<<<<<< HEAD
-=======
-                        <i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-google"></i>
->>>>>>> c070b3caa5208f80ecf968946c1405e9bd906b66
                     </div>
                 </div>
 

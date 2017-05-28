@@ -181,15 +181,12 @@ return [
         //点击量扩展包
         Weboap\Visitor\VisitorServiceProvider::class,
 
-<<<<<<< HEAD
         //轻量级搜索功能
         TomLingham\Searchy\SearchyServiceProvider::class,
 
         //Scout搜索
         Laravel\Scout\ScoutServiceProvider::class
 
-=======
->>>>>>> c070b3caa5208f80ecf968946c1405e9bd906b66
 
     ],
 
@@ -240,11 +237,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
-<<<<<<< HEAD
         'Searchy' => TomLingham\Searchy\Facades\Searchy::class
 
-=======
->>>>>>> c070b3caa5208f80ecf968946c1405e9bd906b66
     ],
 
 

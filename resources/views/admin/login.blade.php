@@ -60,6 +60,7 @@
             <div class="clear"></div>
             <div class="submit">
                 <input type="submit" value="Sign in">
+
                 <h4><a href="#">Lost your Password ?</a></h4>
                 <div class="clear"></div>
             </div>

@@ -31,6 +31,7 @@ class ShowController extends CommonController
         $val = ArticleModel::Article_OrderByClick();
         return view('show.index', ['data' => $data, 'val' => $val]);
 
+
     }
 
     /**
@@ -62,6 +63,7 @@ class ShowController extends CommonController
     public function about()
     {
         return view('show.common.about');
+
     }
 
     /**
@@ -70,6 +72,7 @@ class ShowController extends CommonController
     public function contact()
     {
         return view('show.common.contact');
+
     }
 
     /**
@@ -90,9 +93,19 @@ class ShowController extends CommonController
     {
         $searchCondition = $request->searchbox;
         $artData = ArticleModel::Article_Search($searchCondition);
-        return view('show.index',['data'=>$artData]);
+        return view('show.index', ['data' => $artData]);
         //返回搜索完毕的文章页面，并将搜索的数据带回去
     }
 
 
+    /**
+     * 文章点击度排行的右侧页面
+     */
+    public
+    function right_side_order()
+    {
+        $val = ArticleModel::Article_OrderByClick();
+        return $val;
+    }
 }
+

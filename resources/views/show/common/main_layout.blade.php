@@ -68,9 +68,14 @@
             </div>
 
             <div class="clean-searchbox">
+<<<<<<< HEAD
                 <form method="post"  action="{{url('/Search')}}">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <input class="searchfield" id="searchbox" name="searchbox" type="text" placeholder="Search">
+=======
+                <form action="#" method="get" accept-charset="utf-8">
+                    <input class="searchfield" id="searchbox" type="text" placeholder="Search">
+>>>>>>> c070b3caa5208f80ecf968946c1405e9bd906b66
                     <button class="searchbutton" type="submit">
                         <i class="fa fa-search"></i>
                     </button>

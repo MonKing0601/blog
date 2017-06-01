@@ -50,7 +50,7 @@ class ArticleModel extends Model
 
     public static function Article_Search($condition)
     {
-        $data=DB::table('article')->where('art_title','=',$condition)->get();
+        $data=DB::table('article')->where('art_title','like','%'.$condition.'%')->get();
         return $data;
     }
 
